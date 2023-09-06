@@ -1,0 +1,150 @@
+:root {
+  --dark-bg-color: #1f2937;
+  --light-bg-color: #e5e7eb;
+  --quote-bg-color: #e5e7eb;
+  --quote-text-color: #1f2937;
+  --btn-color: #3882f6;
+  --light-text-color: #f9faf8;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+li {
+  margin: 0 1rem;
+}
+
+li:hover {
+  opacity: 0.7;
+}
+
+img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+button {
+  margin: 1rem 0;
+  padding: 8px 25px;
+  border-radius: 10px;
+  background-color: var(--btn-color);
+  color: var(--light-text-color);
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+  text-align: center;
+  padding: 1rem;
+}
+
+p {
+  font-size: 18px;
+}
+
+section {
+  padding: 1rem 5rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--dark-bg-color);
+  color: var(--light-text-color);
+}
+
+.nav-details {
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo {
+  width: 3rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--light-text-color);
+}
+
+.btn-primary {
+  border: none;
+}
+
+.btn-secondary {
+  border: 2px solid var(--light-bg-color);
+}
+
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--dark-bg-color);
+  color: var(--light-text-color);
+
+  .img-container {
+    width: 15rem;
+  }
+}
+
+.information {
+  .img-container {
+    width: 15rem;
+    margin-right: 1rem;
+  }
+}
+
+.img-grid {
+  display: flex;
+  justify-content: center;
+}
+
+.testimonials {
+  margin: 5rem 0;
+  padding: 5rem 10rem;
+  background: var(--quote-bg-color);
+}
+
+.testimonial-text {
+  font-size: 36px;
+  color: var(--quote-text-color);
+}
+
+.testimonial-author {
+  text-align: right;
+}
+
+.cta {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--btn-color);
+  margin: 5rem;
+  padding: 4rem;
+  border-radius: 10px;
+}
+
+.footer {
+  padding: 1.5rem;
+  background-color: var(--dark-bg-color);
+  color: var(--light-text-color);
+  text-align: center;
+}
